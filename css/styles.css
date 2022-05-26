@@ -16,6 +16,11 @@ body{
     letter-spacing: 0.03em
 }
 
+h1,h2,h3,h4,h5,h6,p,ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 .container {
     width: 1200px;
     padding-left: 15px;
@@ -44,19 +49,40 @@ body{
     color: #FFFFFF;
     background-color: var(--accent-color);
     font-family: inherit;
+    text-align: center;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+
+    border-color: var(--accent-color);
+    border-radius: 4px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+    display: block;
 }
 
 .section-title {
         font-size: 36px;
         line-height: 1.17;
         text-align: center;
-
         color: var(--title-text-color);
+
+        margin-bottom: 50px;        
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 /* Шапка */
 .header-container {
     display: flex;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .logo {
@@ -128,6 +154,12 @@ color: var(--accent-color);
     color: #FFFFFF;
     background-color:#2F303A;
     text-transform: uppercase;
+
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 30px;
 }
 
 /* Преимущества */
@@ -137,6 +169,8 @@ color: var(--accent-color);
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--title-text-color);
+
+    margin-bottom: 10px;
 }
 
 .benefits .text {
@@ -144,13 +178,44 @@ color: var(--accent-color);
     line-height: 1.71;
 }
 
+.benefits-list {
+    display: flex;
+}
+
+.benefits li {
+    width: 270px;
+}
+.benefits-list li + li {
+    margin-left: 30px;
+}
+
 /* Примеры */
+.examples {
+    display: flex;
+}
 
+.examples-photo + .examples-photo {
+    margin-left: 30px;
+}
 /* Команда */
-
+.team-container { 
+    background-color: #F5F4FA;
+}
+.team-list {
+    display: flex;
+}
 .team {
 font-size: 16px;
-line-height: 1.19
+line-height: 1.19;
+width: 270px;
+background-color: #ffffff;
+
+border: 1px solid #ffffff;
+border-bottom-left-radius: 4px;
+border-bottom-right-radius: 4px;
+}
+.team + .team {
+    margin-left: 30px;
 }
 
 .team-name {
@@ -158,8 +223,15 @@ line-height: 1.19
     font-weight: 500;
     font-size: 16px;
     line-height: 1.87;
-}
+    text-align: center;
 
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.team-text {
+    margin-bottom: 30px;
+    text-align: center;
+}
 /* Футер */
 
 .contact {
@@ -178,10 +250,22 @@ line-height: 1.19
     color: #ffffff;
 }
 
+.footer-bgcolor {
+    background-color: #2F303A;
+}
+.logo-link {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    padding-top: 60px;
+}
 
+.footer-container li + li {
+    margin-top: 9px;
+}
 
-
-
+.footer-list + .footer-list {
+    margin-top: 9px;
+}
 
 /* PORTFOLIO.HTML */
 
