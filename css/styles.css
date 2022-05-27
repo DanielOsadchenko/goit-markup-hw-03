@@ -14,30 +14,14 @@ body{
     color: var(--main-text-color);
     font-family: "Roboto", sans-serif;
     letter-spacing: 0.03em
-}
 
-h1,h2,h3,h4,h5,h6,p,ul {
-    margin: 0;
-    padding: 0;
-    border: 0;
 }
-.container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .link {
     text-decoration: none;
-    margin: 0px;
 }
 
 .marker {
     list-style-type: none;
-    padding: 0px;
-    margin: 0px;
 }
 
 .hero-button {
@@ -49,41 +33,17 @@ h1,h2,h3,h4,h5,h6,p,ul {
     color: #FFFFFF;
     background-color: var(--accent-color);
     font-family: inherit;
-    text-align: center;
-
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 32px;
-    padding-right: 32px;
-
-    border-color: var(--accent-color);
-    border-radius: 4px;
-
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 200px;
-    display: block;
 }
 
 .section-title {
         font-size: 36px;
         line-height: 1.17;
         text-align: center;
+
         color: var(--title-text-color);
-
-        margin-bottom: 50px;        
-}
-
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 /* Шапка */
-.header-container {
-    display: flex;
-    border-bottom: 1px solid #ECECEC;
-}
 
 .logo {
     font-weight: 700;
@@ -91,26 +51,10 @@ h1,h2,h3,h4,h5,h6,p,ul {
     line-height: 1.2;
     color: var(--title-text-color);
     font-family: "Raleway", sans-serif;
-
-    margin-top: 24px;
-    margin-bottom: 25px;
-    margin-right: 93px;
-
 }
 
 .logo-accent {
     color: var(--accent-color);
-}
-
-.site-nav {
-    display: flex;
-}
-.nav-button {
-    padding-top: 32px;
-    padding-bottom: 32px;;
-}
-.nav-button + .nav-button {
-    margin-left: 50px;
 }
 
 .nav {
@@ -138,10 +82,6 @@ h1,h2,h3,h4,h5,h6,p,ul {
 .header-link:focus {
 color: var(--accent-color);
 }
-.site-contact {
-    display: flex;
-    margin-left: auto;
-}
 
 /* Герой */
 
@@ -154,12 +94,6 @@ color: var(--accent-color);
     color: #FFFFFF;
     background-color:#2F303A;
     text-transform: uppercase;
-
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 200px;
-    margin-bottom: 30px;
 }
 
 /* Преимущества */
@@ -169,8 +103,6 @@ color: var(--accent-color);
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--title-text-color);
-
-    margin-bottom: 10px;
 }
 
 .benefits .text {
@@ -178,44 +110,13 @@ color: var(--accent-color);
     line-height: 1.71;
 }
 
-.benefits-list {
-    display: flex;
-}
-
-.benefits li {
-    width: 270px;
-}
-.benefits-list li + li {
-    margin-left: 30px;
-}
-
 /* Примеры */
-.examples {
-    display: flex;
-}
 
-.examples-photo + .examples-photo {
-    margin-left: 30px;
-}
 /* Команда */
-.team-container { 
-    background-color: #F5F4FA;
-}
-.team-list {
-    display: flex;
-}
+
 .team {
 font-size: 16px;
-line-height: 1.19;
-width: 270px;
-background-color: #ffffff;
-
-border: 1px solid #ffffff;
-border-bottom-left-radius: 4px;
-border-bottom-right-radius: 4px;
-}
-.team + .team {
-    margin-left: 30px;
+line-height: 1.19
 }
 
 .team-name {
@@ -223,15 +124,8 @@ border-bottom-right-radius: 4px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.87;
-    text-align: center;
+}
 
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
-.team-text {
-    margin-bottom: 30px;
-    text-align: center;
-}
 /* Футер */
 
 .contact {
@@ -250,25 +144,8 @@ border-bottom-right-radius: 4px;
     color: #ffffff;
 }
 
-.footer-bgcolor {
-    background-color: #2F303A;
-}
-.logo-link {
-    color: #FFFFFF;
-    margin-bottom: 20px;
-    padding-top: 60px;
-}
 
-.footer-container li + li {
-    margin-top: 9px;
-}
 
-.footer-list + .footer-list {
-    margin-top: 9px;
-}
-.address-list {
-    padding-bottom: 60px;
-}
 
 
 
@@ -288,57 +165,21 @@ border-bottom-right-radius: 4px;
     list-style-type: inherit;
     letter-spacing: inherit;
     font-family: inherit;
-
-    border-radius: 4px;
-    border-color: #F5F4FA;
-    padding-left: 22px;
-    padding-right: 22px;
-    padding-top: 6px;
-    padding-bottom: 6px;
 }
 .filter-button:hover, .filter-button:focus {
     background-color: var(--accent-color);
     color: #ffffff;
 }
 
-.item .title {
+.example .title {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-text-color);
-
-    padding-top: 20px;
-    padding-bottom: 4px;
 }
 
-.item .text {
+.example .text {
     font-size: 16px;
     line-height: 1.88;
     color: var(--main-text-color);
-
-    padding-bottom: 20px;
-}
-
-.filter-list {
-    display: flex;
-    /* margin-left: auto;
-    margin-right: auto; */
-    justify-content: center;
-    margin-bottom: 50px;
-}
-
-.filter-dot + .filter-dot {
-    margin-left: 8px;
-}
-.container .example {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -30px;
-    margin-top: -30px;  
-}
-.example .item {
-    border-bottom: 1px solid #EEEEEE;
-    margin-left: 30px;
-    margin-top: 30px;
-    flex-basis: calc((100% - 90px) / 3)
 }
