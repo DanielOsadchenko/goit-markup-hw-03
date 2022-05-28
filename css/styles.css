@@ -79,6 +79,9 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 /* Шапка */
+.header-border {
+    border-bottom: 1px solid #ECECEC;
+}
 .nav-container {
     display: flex;
     align-items: center;
@@ -86,7 +89,8 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .nav-list {
     display: flex;
 }
-.nav-list .item {
+.nav-list .nav {
+    display: block;
     padding-top: 32px;
     padding-bottom: 32px;
 }
@@ -101,7 +105,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     color: var(--title-text-color);
     font-family: "Raleway", sans-serif;
 
-    padding-right: 93px;
+    margin-right: 93px;
 }
 
 .logo-accent {
@@ -143,7 +147,6 @@ color: var(--accent-color);
 .nav-display {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #ECECEC;
 }
 /* Герой */
 .hero {
@@ -191,6 +194,9 @@ color: var(--accent-color);
 }
 .examples-list .item + .item {
     margin-left: 30px;
+}
+.examples-section {
+    padding-top: 0px;
 }
 /* Команда */
 .team-bg {
@@ -317,10 +323,12 @@ border-bottom-right-radius: 4px;
     margin-left: 30px;
     margin-top: 30px;
     flex-basis: calc((100% - 90px) / 3);
-    border-bottom: 1px solid #EEEEEE;
 }
 .item-text {
     padding-left: 24px;
     padding-top: 20px;
     padding-bottom: 20px;
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
 }
